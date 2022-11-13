@@ -13,19 +13,120 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 100px;
   /* выше установили ограничения для секции */
 }
 
+.logo {
+  width: 228px;
+  height: 32px;
+  z-index: 1;
+}
+
+.logo__place_header {
+  background-image: url("../images/logo_place_header.svg");
+  top: 30px;
+  left: 64px;
+  position: absolute;
+}
+
+.header__title {
+  font-size: 102px;
+  font-weight: 600;
+  width: 730px;
+  line-height: 96px;
+  padding-left: 64px;
+  margin: 0;
+  z-index: 1;
+}
+
+.header__subtitle {
+  width: 388px;
+  position: absolute;
+  font-size: 18px;
+  font-weight: normal;
+  bottom: 30px;
+  left: 64px;
+  margin: 0;
+  line-height: 25px;
+  z-index: 1;
+}
+
+.header__link {
+  text-decoration: none;
+  z-index: 1;
+  color: #2f80ed;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+}
+
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+/* решить почему при сильном сжимании окна синий квадрат вылазит снизу из под картинки */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  bottom: 0;
+  position: absolute;
+  background-color: #2f80ed;
+  top: 64px;
+  right: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
+/* .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+} */
+
+.description {
+  display: flex;
+  justify-content: center;
+}
+
+.two-colums {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.two-colums__brief {
+  width: 175px;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 1.2;
+  margin: 0;
+  color: #2f80ed;
+}
+
+.two-colums__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-colums__paragraph {
+  margin: 0;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.two-colums__paragraph_span-accent {
+  font-weight: 600;
+}
+
+.two-colums__paragraph:not(:last-child) {
+  margin-bottom: 30px;
 }
