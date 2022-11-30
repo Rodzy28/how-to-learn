@@ -12,13 +12,13 @@
 
 <body class="page">
   <header class="header">
-    <div class="logo logo_place_header"></div>
+    <a href="https://practicum.yandex.ru/" class="logo logo_place_header link" target="_blank"></a>
     <h1 class="header__title">Научиться учиться</h1>
     <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
       жизни?
-      <a class="header__link" href="#">Узнать &rarr;</a>
+      <a class="header__link link" href="#">Узнать &rarr;</a>
     </p>
-    <div class="header__square-pic"></div>
+    <div class="header__square-pic rotation"></div>
     <img class="header__main-illustration" src="./images/two_again.png" alt="Картина Фёдора Решетникова - Опять двойка">
   </header>
   <main class="content">
@@ -39,6 +39,36 @@
         </div>
       </div>
     </section>
+
+    <section class="techniques">
+      <h2 class="section-title">Техники обучения</h2>
+      <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
+      <ul class="cards">
+        <li class="cards__item">
+          <img class="cards__image" src="./images/cards/cards-attention.png" alt="">
+          <h4 class="cards__title">Два вида внимания</h4>
+          <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+        </li>
+        <li class="cards__item">
+          <img class="cards__image" src="./images/cards/cards-recall.png" alt="">
+          <h4 class="cards__title">Recall</h4>
+          <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+        </li><li class="cards__item">
+          <img class="cards__image" src="./images/cards/cards-interliving.png" alt="">
+          <h4 class="cards__title">Интерливинг</h4>
+          <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+        </li><li class="cards__item">
+          <img class="cards__image" src="./images/cards/cards-question.png" alt="">
+          <h4 class="cards__title">Вопросы</h4>
+          <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+        </li><li class="cards__item">
+          <img class="cards__image" src="./images/cards/cards-competence.png" alt="">
+          <h4 class="cards__title">Иллюзия компетентности</h4>
+          <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+        </li>
+      </ul>
+    </section>
+
     <section class="digits">
       <h2 class="section-title">Цифры и факты</h2>
       <h3 class="section-subtitle">Про учёбу и мозг</h3>
@@ -82,10 +112,10 @@
     <section class="feynman">
       <h2 class="feynman__title">Метод Фейнмана</h2>
       <h3 class="feynman__subtitle">Выучить и не забыть.</h3>
-      <a class="feynman__link" href="#">Подробнее &rarr;</a>
+      <a class="feynman__link link" href="#">Подробнее &rarr;</a>
     </section>
     <section class="kaufman">
-      <div class="kaufman__triangle"></div>
+      <div class="kaufman__triangle rotation"></div>
       <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
       <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
       <ul class="table table_theme_dark">
@@ -136,29 +166,29 @@
   <footer class="footer">
     <div class="footer__columns">
       <div class="footer__column_content_copyright">
-        <div class="logo logo_place_footer"></div>
+        <a href="https://practicum.yandex.ru/" class="logo logo_place_footer link" target="_blank"></a>
         <p class="footer__author">&#169; Сергей Прадько</p>
       </div>
       <nav class="footer__column_content_info">
         <h3 class="footer__column-heading">О Практикуме</h3>
         <ul class="footer__column-links">
-          <li><a class="footer__column-link" href="#">Главная</a></li>
-          <li><a class="footer__column-link" href="#">Концепция</a></li>
-          <li><a class="footer__column-link" href="#">Наставники</a></li>
+          <li><a class="footer__column-link link" href="#">Главная</a></li>
+          <li><a class="footer__column-link link" href="#">Концепция</a></li>
+          <li><a class="footer__column-link link" href="#">Наставники</a></li>
         </ul>
       </nav>
       <div class="footer__column_content_social">
         <h3 class="footer__column-heading">Соцсети</h3>
         <ul class="footer__column-links">
           <li>
-            <a class="footer__column-link" href="https://www.youtube.com/" target="_blank">
+            <a class="footer__column-link link" href="https://www.youtube.com/" target="_blank">
               <img class="footer__social-icon" src="./images/icon/youtube-icon.svg" alt="Ссылка на Youtube">Youtube</a>
           </li>
           <li>
-            <a class="footer__column-link" href="https://vk.com/" target="_blank">
+            <a class="footer__column-link link" href="https://vk.com/" target="_blank">
               <img class="footer__social-icon" src="./images/icon/vk_color_white.svg" alt="Ссылка на ВКонтакте">ВКонтакте</a>
           </li>
-          <li><a class="footer__column-link" href="https://www.tiktok.com/" target="_blank">
+          <li><a class="footer__column-link link" href="https://www.tiktok.com/" target="_blank">
               <img class="footer__social-icon" src="./images/icon/vk_color_white.svg" alt="Ссылка на TikTok">TikTok</a>
           </li>
         </ul>
