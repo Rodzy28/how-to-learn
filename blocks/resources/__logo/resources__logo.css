@@ -1,0 +1,7 @@
+.resources__logo {
+  transition: transform .5s;
+}
+
+.resources__logo:hover {
+  transform: scale(150%);
+}
